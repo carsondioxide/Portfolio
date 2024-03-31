@@ -20,6 +20,10 @@ body{
     background-color: var(--mindaro);
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
 header{
     display: flex;
     align-items: center;
@@ -145,6 +149,9 @@ a:active{
     margin: 12px;
 }
 
+#secret-button{
+    display: none;
+}
 
 @media only screen and (max-width: 600px){
 /*  Conditional Styling */
