@@ -26,6 +26,7 @@ body::-webkit-scrollbar{
 
 header{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     background-color: var(--light-green);
@@ -155,5 +156,29 @@ a:active{
 
 @media only screen and (max-width: 600px){
 /*  Conditional Styling */
-
+    #profile{
+        width: 100%;
+    }
+    h1 {
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+        font-size: 16px;
+    }
+    .nav-items{
+        margin: 0;
+        justify-content: space-between;
+        width: 100%;
+        display: flex;
+    }
+    .nav-item{
+        margin: auto;
+    }
+    h1{
+        padding-left: 4px;
+    }
+    ul{
+        padding-inline-start: 4px;
+    }
 }
