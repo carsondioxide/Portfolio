@@ -8,6 +8,145 @@
     --bondi-blue: #168AAD;
     --cerulean: #1A759F;
     --lapis: #1E6091;
-    --indigo: #184E77;
+    --indigo: #184e77;
 }
 
+body{
+    width: 100%;
+    margin: 0 0 8px 0;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--indigo);
+    background-color: var(--mindaro);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--light-green);
+    margin: 0;
+    width: 100%;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+}
+
+h1{
+    padding-left: 12px;
+}
+
+nav{
+    display: flex;
+    font-size: 24px;
+}
+
+section{
+    padding-left: 12px;
+    padding-bottom: 18px;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+#email{
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+#email p{
+    font-size: 24px;
+}
+
+#education{
+    width: 100%;
+}
+
+#projects{
+    width: 100%;
+}
+
+#career{
+    width: 100%;
+}
+
+#about-me{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#img-container{
+    padding-top: 12px;
+    width:40%;
+}
+
+#profile{
+    width: 480px;
+    height: auto;
+}
+
+
+#text-container{
+    padding-left: 12px;
+    width:40%;
+}
+
+a:link{
+    color: var(--indigo);
+    text-decoration: none;
+}
+
+a:visited{
+    color: var(--indigo);
+}
+
+a:hover{
+    color: var(--emerald);
+}
+
+a:active{
+    text-decoration: underline;
+}
+
+.title a:link{
+    color: var(--indigo);
+    text-decoration: none;
+}
+.title a:visited{
+    color: var(--indigo);
+}
+.title a:hover{
+    color: var(--indigo);
+}
+.title a:active{
+    color: var(--indigo);
+}
+
+#email-address:link{
+    text-decoration: underline;
+}
+
+.nav-items{
+    display: flex;
+    list-style-type: none;
+    margin: 0 0 0 auto;
+    justify-content: space-around;
+}
+
+.nav-item{
+    margin: 12px;
+}
+
+
+@media only screen and (max-width: 600px){
+/*  Conditional Styling */
+
+}
